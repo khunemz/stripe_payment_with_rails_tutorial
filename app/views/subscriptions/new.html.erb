@@ -1,0 +1,5 @@
+<h1>Signing up for "<%= @subscription.plan.name %>"</h1>
+<p>Includes <strong><%= @subscription.plan.kisses %> llama kisses</strong> for only 
+<strong><%= number_to_currency @subscription.plan.price %></strong> per month!</p>
+
+<%= render 'subscriptions/form' %>
