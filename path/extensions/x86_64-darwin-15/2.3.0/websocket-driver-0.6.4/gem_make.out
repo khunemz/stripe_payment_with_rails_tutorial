@@ -1,0 +1,15 @@
+current directory: /Users/chutipongroobklom/tutorial/rails/railscasts/ep288/path/gems/websocket-driver-0.6.4/ext/websocket-driver
+/Users/chutipongroobklom/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160721-1573-1aw4nem.rb extconf.rb
+creating Makefile
+
+current directory: /Users/chutipongroobklom/tutorial/rails/railscasts/ep288/path/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/chutipongroobklom/tutorial/rails/railscasts/ep288/path/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/chutipongroobklom/tutorial/rails/railscasts/ep288/path/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20160721-1573-bv2acy
