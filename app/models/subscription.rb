@@ -11,4 +11,10 @@ class Subscription < ApplicationRecord
 			save!
 		end
 	end
+
+	rescue Stripe::InvalidRequestError => e
+		logger.error "Stripe Error while creating customer : #{e}"
+		errors.add :base, "There was a problem with your card"
+		false
+	
 end
